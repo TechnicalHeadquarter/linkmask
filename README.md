@@ -12,7 +12,12 @@ FOR EDUCATIONAL PURPOSES ONLY. Usage of MaskPhish for attacking targets without 
 ```
 git clone https://github.com/technicalheadquarter/linkmask
 cd linkmask
+chmod +x linkmask.sh
 ./linkmask.sh
+
+# Single Link Execution
+git clone https://github.com/technicalheadquarter/linkmask && cd linkmask && chmod +x linkmask.sh && ./linkmask.sh
+
 ```
 (Tested on Kali Linux, Termux & Ubuntu)
 
